@@ -1,0 +1,53 @@
+{
+    "WhiteAgent": {
+        "elo": 921.6940218605334,
+        "checkpoints": [
+            {
+                "steps": 50003,
+                "file_path": "results\\safari_1\\WhiteAgent\\WhiteAgent-50003.onnx",
+                "reward": -0.37155172177429857,
+                "creation_time": 1651146310.998734,
+                "auxillary_file_paths": [
+                    "results\\safari_1\\WhiteAgent\\WhiteAgent-50003.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 50003,
+            "file_path": "results\\safari_1\\WhiteAgent.onnx",
+            "reward": -0.37155172177429857,
+            "creation_time": 1651146310.998734,
+            "auxillary_file_paths": [
+                "results\\safari_1\\WhiteAgent\\WhiteAgent-50003.pt"
+            ]
+        }
+    },
+    "BlackAgent": {
+        "elo": 1135.4749772532089,
+        "checkpoints": [
+            {
+                "steps": 7702,
+                "file_path": "results\\safari_1\\BlackAgent\\BlackAgent-7702.onnx",
+                "reward": -0.6023076805930871,
+                "creation_time": 1651146311.1707335,
+                "auxillary_file_paths": [
+                    "results\\safari_1\\BlackAgent\\BlackAgent-7702.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7702,
+            "file_path": "results\\safari_1\\BlackAgent.onnx",
+            "reward": -0.6023076805930871,
+            "creation_time": 1651146311.1707335,
+            "auxillary_file_paths": [
+                "results\\safari_1\\BlackAgent\\BlackAgent-7702.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}
