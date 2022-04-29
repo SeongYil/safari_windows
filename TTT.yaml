@@ -1,6 +1,6 @@
 behaviors:
 
-  BlackAgent:
+  O_Behavior:
     trainer_type: ppo
     hyperparameters:
       batch_size: 256
@@ -35,7 +35,7 @@ behaviors:
       swap_steps: 10000
       team_change : 100000
 
-  WhiteAgent:
+  X_Behavior:
     trainer_type: ppo
     hyperparameters:
       batch_size: 256
@@ -80,7 +80,7 @@ engine_settings:
   no_graphics: true
 
 checkpoint_settings:
-  run_id: Safari_With_RNN_1
+  run_id: TTT_1
   initialize_from: null
   load_model: false
   resume: false
