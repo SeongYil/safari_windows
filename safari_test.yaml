@@ -6,10 +6,10 @@ behaviors:
       batch_size: 512
       buffer_size: 20480
       learning_rate: 0.0003
-      beta: 0.003
-      epsilon: 0.2
+      beta: 0.01
+      epsilon: 0.1
       lambd: 0.95
-      num_epoch: 4
+      num_epoch: 1
       learning_rate_schedule: linear
     network_settings:
       normalize: false
@@ -39,10 +39,10 @@ behaviors:
       batch_size: 512
       buffer_size: 20480
       learning_rate: 0.0003
-      beta: 0.003
-      epsilon: 0.2
+      beta: 0.01
+      epsilon: 0.1
       lambd: 0.95
-      num_epoch: 4
+      num_epoch: 1
       learning_rate_schedule: linear
     network_settings:
       normalize: false
@@ -76,7 +76,7 @@ engine_settings:
   no_graphics: true
 
 checkpoint_settings:
-  run_id: Son_safari_test_without_LSTM
+  run_id: Son_safari_test_Linear
   initialize_from: null
   load_model: false
   resume: false
