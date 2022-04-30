@@ -3,24 +3,33 @@ behaviors:
   BlackAgent:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 256
-      buffer_size: 10240
+      batch_size: 512
+      buffer_size: 20480
       learning_rate: 0.0003
       beta: 0.004
       epsilon: 0.2
       lambd: 0.95
       num_epoch: 4
-      learning_rate_schedule: linear
+      learning_rate_schedule: constant
     network_settings:
       normalize: false
-      hidden_units: 512
+      hidden_units: 256
       num_layers: 4
-      vis_encode_type: simple
+      vis_encode_type: resnet
     reward_signals:
       extrinsic:
+<<<<<<< HEAD
         gamma: 0.95
+=======
+        gamma: 0.99
+>>>>>>> 2d1b782ce9db09bad3b3b501a4729de1d0bae511
         strength: 1.0
+      curiosity:
+        strength: 0.002
+        gamma: 0.99
+        learning_rate: 0.0003
     keep_checkpoints: 5
+<<<<<<< HEAD
 <<<<<<< HEAD
     max_steps: 4000000
 =======
@@ -28,6 +37,11 @@ behaviors:
 >>>>>>> b2809a234211a52a0a6d3fb70b3095537dd51ff4
     time_horizon: 64
     summary_freq: 10000
+=======
+    max_steps: 10000000
+    time_horizon: 64
+    summary_freq: 1000
+>>>>>>> 2d1b782ce9db09bad3b3b501a4729de1d0bae511
     checkpoint_interval : 1000000
     self_play:
       window: 10
@@ -39,24 +53,29 @@ behaviors:
   WhiteAgent:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 256
-      buffer_size: 10240
+      batch_size: 512
+      buffer_size: 20480
       learning_rate: 0.0003
-      beta: 0.004
+      beta: 0.005
       epsilon: 0.2
       lambd: 0.95
       num_epoch: 4
-      learning_rate_schedule: linear
+      learning_rate_schedule: constant
     network_settings:
       normalize: false
-      hidden_units: 512
+      hidden_units: 256
       num_layers: 4
-      vis_encode_type: simple
+      vis_encode_type: resnet
     reward_signals:
       extrinsic:
-        gamma: 0.95
+        gamma: 0.99
         strength: 1.0
+      curiosity:
+        strength: 0.002
+        gamma: 0.99
+        learning_rate: 0.0003
     keep_checkpoints: 5
+<<<<<<< HEAD
 <<<<<<< HEAD
     max_steps: 4000000
 =======
@@ -64,6 +83,11 @@ behaviors:
 >>>>>>> b2809a234211a52a0a6d3fb70b3095537dd51ff4
     time_horizon: 64
     summary_freq: 10000
+=======
+    max_steps: 10000000
+    time_horizon: 64
+    summary_freq: 1000
+>>>>>>> 2d1b782ce9db09bad3b3b501a4729de1d0bae511
     checkpoint_interval : 1000000
     self_play:
       window: 10
@@ -75,24 +99,28 @@ behaviors:
 engine_settings:
   width: 720
   height: 480
-  quality_level: 5
+  quality_level: 1
   time_scale: 20
   target_frame_rate: -1
   capture_frame_rate: 60
-  no_graphics: false
+  no_graphics: true
 
 checkpoint_settings:
+<<<<<<< HEAD
 <<<<<<< HEAD
   run_id: Safari_With_RNN_1
 =======
   run_id: safari_10
 >>>>>>> b2809a234211a52a0a6d3fb70b3095537dd51ff4
+=======
+  run_id: CSI_1
+>>>>>>> 2d1b782ce9db09bad3b3b501a4729de1d0bae511
   initialize_from: null
   load_model: false
   resume: false
-  force: false
+  force: true
   train_model: false
   inference: false
 
 torch_settings:
-  device: cuda
+  device: cpu

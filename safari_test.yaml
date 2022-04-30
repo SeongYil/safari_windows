@@ -6,7 +6,7 @@ behaviors:
       batch_size: 512
       buffer_size: 20480
       learning_rate: 0.0003
-      beta: 0.005
+      beta: 0.003
       epsilon: 0.2
       lambd: 0.95
       num_epoch: 4
@@ -20,9 +20,7 @@ behaviors:
       extrinsic:
         gamma: 0.99
         strength: 1.0
-      curiosity:
-        strength: 0.001
-        gamma: 0.99
+      
     keep_checkpoints: 5
     max_steps: 10000000
     time_horizon: 64
@@ -41,7 +39,7 @@ behaviors:
       batch_size: 512
       buffer_size: 20480
       learning_rate: 0.0003
-      beta: 0.005
+      beta: 0.003
       epsilon: 0.2
       lambd: 0.95
       num_epoch: 4
@@ -55,9 +53,7 @@ behaviors:
       extrinsic:
         gamma: 0.99
         strength: 1.0
-      curiosity:
-        strength: 0.001
-        gamma: 0.99
+      
     keep_checkpoints: 5
     max_steps: 10000000
     time_horizon: 64
@@ -80,7 +76,7 @@ engine_settings:
   no_graphics: true
 
 checkpoint_settings:
-  run_id: Son_safari_test
+  run_id: Son_safari_test_without_LSTM
   initialize_from: null
   load_model: false
   resume: false
