@@ -1,0 +1,125 @@
+{
+    "BlackAgent": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results\\safari_6\\BlackAgent\\BlackAgent-499991.onnx",
+                "reward": 0.850449114145633,
+                "creation_time": 1651153928.5479395,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\BlackAgent\\BlackAgent-499991.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\safari_6\\BlackAgent\\BlackAgent-999999.onnx",
+                "reward": 0.9612820515265832,
+                "creation_time": 1651157841.9603481,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\BlackAgent\\BlackAgent-999999.pt"
+                ]
+            },
+            {
+                "steps": 1499994,
+                "file_path": "results\\safari_6\\BlackAgent\\BlackAgent-1499994.onnx",
+                "reward": 0.9173076973511622,
+                "creation_time": 1651161314.0086446,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\BlackAgent\\BlackAgent-1499994.pt"
+                ]
+            },
+            {
+                "steps": 1999996,
+                "file_path": "results\\safari_6\\BlackAgent\\BlackAgent-1999996.onnx",
+                "reward": -0.4427840821444988,
+                "creation_time": 1651164401.6483536,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\BlackAgent\\BlackAgent-1999996.pt"
+                ]
+            },
+            {
+                "steps": 2000236,
+                "file_path": "results\\safari_6\\BlackAgent\\BlackAgent-2000236.onnx",
+                "reward": -0.444477602320524,
+                "creation_time": 1651164691.3789263,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\BlackAgent\\BlackAgent-2000236.pt"
+                ]
+            }
+        ],
+        "elo": 6008.155138092302,
+        "final_checkpoint": {
+            "steps": 2000236,
+            "file_path": "results\\safari_6\\BlackAgent.onnx",
+            "reward": -0.444477602320524,
+            "creation_time": 1651164691.3789263,
+            "auxillary_file_paths": [
+                "results\\safari_6\\BlackAgent\\BlackAgent-2000236.pt"
+            ]
+        }
+    },
+    "WhiteAgent": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\safari_6\\WhiteAgent\\WhiteAgent-499998.onnx",
+                "reward": 1.0099999904632568,
+                "creation_time": 1651154590.0695956,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\WhiteAgent\\WhiteAgent-499998.pt"
+                ]
+            },
+            {
+                "steps": 999993,
+                "file_path": "results\\safari_6\\WhiteAgent\\WhiteAgent-999993.onnx",
+                "reward": 0.786800000667572,
+                "creation_time": 1651158201.7758005,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\WhiteAgent\\WhiteAgent-999993.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results\\safari_6\\WhiteAgent\\WhiteAgent-1499999.onnx",
+                "reward": 0.927192518417848,
+                "creation_time": 1651161693.6389532,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\WhiteAgent\\WhiteAgent-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1999998,
+                "file_path": "results\\safari_6\\WhiteAgent\\WhiteAgent-1999998.onnx",
+                "reward": 0.692049177943683,
+                "creation_time": 1651164691.230907,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\WhiteAgent\\WhiteAgent-1999998.pt"
+                ]
+            },
+            {
+                "steps": 2000007,
+                "file_path": "results\\safari_6\\WhiteAgent\\WhiteAgent-2000007.onnx",
+                "reward": 0.6968548365177647,
+                "creation_time": 1651164691.530793,
+                "auxillary_file_paths": [
+                    "results\\safari_6\\WhiteAgent\\WhiteAgent-2000007.pt"
+                ]
+            }
+        ],
+        "elo": 6326.711044930621,
+        "final_checkpoint": {
+            "steps": 2000007,
+            "file_path": "results\\safari_6\\WhiteAgent.onnx",
+            "reward": 0.6968548365177647,
+            "creation_time": 1651164691.530793,
+            "auxillary_file_paths": [
+                "results\\safari_6\\WhiteAgent\\WhiteAgent-2000007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}

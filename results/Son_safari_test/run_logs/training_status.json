@@ -1,0 +1,71 @@
+{
+    "WhiteAgent": {
+        "checkpoints": [
+            {
+                "steps": 4999986,
+                "file_path": "results\\Son_safari_test\\WhiteAgent\\WhiteAgent-4999986.onnx",
+                "reward": 0.6702420054086082,
+                "creation_time": 1651268488.3816414,
+                "auxillary_file_paths": [
+                    "results\\Son_safari_test\\WhiteAgent\\WhiteAgent-4999986.pt"
+                ]
+            },
+            {
+                "steps": 9000505,
+                "file_path": "results\\Son_safari_test\\WhiteAgent\\WhiteAgent-9000505.onnx",
+                "reward": -0.6617573360020147,
+                "creation_time": 1651285287.825395,
+                "auxillary_file_paths": [
+                    "results\\Son_safari_test\\WhiteAgent\\WhiteAgent-9000505.pt"
+                ]
+            }
+        ],
+        "elo": 10695.951646544636,
+        "final_checkpoint": {
+            "steps": 9000505,
+            "file_path": "results\\Son_safari_test\\WhiteAgent.onnx",
+            "reward": -0.6617573360020147,
+            "creation_time": 1651285287.825395,
+            "auxillary_file_paths": [
+                "results\\Son_safari_test\\WhiteAgent\\WhiteAgent-9000505.pt"
+            ]
+        }
+    },
+    "BlackAgent": {
+        "checkpoints": [
+            {
+                "steps": 4999982,
+                "file_path": "results\\Son_safari_test\\BlackAgent\\BlackAgent-4999982.onnx",
+                "reward": 0.8132192544901191,
+                "creation_time": 1651268893.0244603,
+                "auxillary_file_paths": [
+                    "results\\Son_safari_test\\BlackAgent\\BlackAgent-4999982.pt"
+                ]
+            },
+            {
+                "steps": 8923915,
+                "file_path": "results\\Son_safari_test\\BlackAgent\\BlackAgent-8923915.onnx",
+                "reward": 0.8013293333159917,
+                "creation_time": 1651285287.9343967,
+                "auxillary_file_paths": [
+                    "results\\Son_safari_test\\BlackAgent\\BlackAgent-8923915.pt"
+                ]
+            }
+        ],
+        "elo": 10943.663380256583,
+        "final_checkpoint": {
+            "steps": 8923915,
+            "file_path": "results\\Son_safari_test\\BlackAgent.onnx",
+            "reward": 0.8013293333159917,
+            "creation_time": 1651285287.9343967,
+            "auxillary_file_paths": [
+                "results\\Son_safari_test\\BlackAgent\\BlackAgent-8923915.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1"
+    }
+}
